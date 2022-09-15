@@ -316,7 +316,7 @@ def pregunta_09():
                 if par.split(":")[0] == letra:
                     fin[letra] += 1
             elif par.split(":")[0] == letra:
-                fin[letra] = 0
+                fin[letra] = 1
     fin = sorted(fin.items())
     fin = dict(fin)
     return fin
