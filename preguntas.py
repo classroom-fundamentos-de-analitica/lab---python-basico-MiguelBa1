@@ -317,6 +317,8 @@ def pregunta_09():
                     fin[letra] += 1
             elif par.split(":")[0] == letra:
                 fin[letra] = 0
+    fin = sorted(fin.items())
+    fin = dict(fin)
     return fin
 
 def pregunta_10():
